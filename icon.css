@@ -1,0 +1,71 @@
+:root{
+  --bg-color: #fff;
+  --font-color: #666;
+}
+
+[class*=icon-]{
+	margin: .5em;
+	font-size: 1.5em;
+}
+
+.icon-mid {
+	font-size: 2.5em !important;
+}
+.icon-large {
+	font-size: 4em !important;
+}
+
+/* Arrows */
+.icon-right,
+.icon-left,
+.icon-up,
+.icon-down,
+.icon-arrow-right,
+.icon-arrow-left,
+.icon-arrow-up,
+.icon-arrow-down{
+	position: relative;
+	width: .5em;
+	height: .5em;
+	border-left: .1em solid #666;
+    border-bottom: .1em solid #666;
+    margin: .5em .7em;
+}
+.icon-right,
+.icon-arrow-right{
+	top: .35em;
+	transform: translate(0,-50%) rotate(-135deg);
+}
+.icon-left,
+.icon-arrow-left{
+	top: .35em;
+	transform: translate(0,-50%) rotate(45deg);
+}
+.icon-up{
+	top: .45em;
+	transform: translate(0,-50%) rotate(135deg);
+}
+.icon-arrow-up{
+	top: .2em;
+	transform: translate(0,-50%) rotate(135deg);
+}
+.icon-down{
+	top: .125em;
+	transform: translate(0,-50%) rotate(-45deg);
+}
+.icon-arrow-down{
+	top: .45em;
+	transform: translate(0,-50%) rotate(-45deg);
+}
+.icon-arrow-right:before,
+.icon-arrow-left:before,
+.icon-arrow-up:before,
+.icon-arrow-down:before {
+	content: '';
+	position: absolute;
+	top: .1em;
+	width: .75em;
+	height: .1em;
+	background-color: #666;
+	transform: rotate(-45deg);
+}
