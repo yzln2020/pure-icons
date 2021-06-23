@@ -69,3 +69,23 @@
 	background-color: #666;
 	transform: rotate(-45deg);
 }
+
+/* Plus and Minus */
+.icon-plus,
+.icon-minus,
+.icon-plus:after{
+	width: 1em;
+	height: .1em;
+	background-color: #666;
+}
+.icon-plus,
+.icon-minus{
+	position: relative;
+	top: -.25em;
+	margin-top: 1em;
+}
+.icon-plus:after {
+	content: '';
+	position: absolute;
+	transform: rotate(90deg);
+}
