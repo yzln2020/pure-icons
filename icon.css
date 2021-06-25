@@ -134,3 +134,25 @@
 	width: 1.2em;
 	transform: rotate(90deg);
 }
+
+/* Search */
+.icon-search {
+	position: relative;
+	top: .1em;
+    left: -.1em;
+    width: 0.6em;
+    height: 0.6em;
+  	border: 0.175em solid #666;
+  	border-radius: 0.65em;
+  	margin: .15em .525em .5em .525em;
+}
+.icon-search:before {
+	content: '';
+	position: absolute;
+  	right: -0.45em;
+  	bottom: -0.25em;
+  	width: 0.6em;
+  	height: 0.15em;
+  	background: #666;
+  	transform: rotate(45deg);
+}
