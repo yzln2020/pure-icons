@@ -182,3 +182,50 @@
 				0.6em 0em 0 0 #666;
 	margin: .9em .9em .5em .9em
 }
+
+/* Download  and Upload */
+.icon-download,
+.icon-upload {
+	position: relative;
+	width: .2em;
+	height: .5em;
+	background-color: #666; 
+	margin: .605em .901em .5em .901em ;
+}
+.icon-download{
+	top: -.235em;
+}
+.icon-upload {
+	top: -.1em;
+}
+.icon-download:before,
+.icon-upload:before {
+	content: '';
+	position: absolute;
+	left: -.15em;
+	border-width: .25em;
+	border-style: solid;
+}
+.icon-download:before {
+	top: .4em;
+	border-color: #666 transparent transparent transparent; 
+}
+.icon-upload:before {
+	top: -.35em;
+	border-color: transparent transparent #666 transparent; 
+}
+.icon-download:after,
+.icon-upload:after {
+	content: '';
+	position: absolute;
+	top: .4em;
+	left: -.4em;
+	width: .75em;
+	height: .25em;
+	border-width: 0 .125em .125em .125em;
+	border-style: solid;
+	border-color: #666; 
+}
+.icon-download:after{
+	top: .5em;
+}
