@@ -229,3 +229,35 @@
 .icon-download:after{
 	top: .5em;
 }
+
+/* Share */
+.icon-share{
+	position: relative;
+	top: -.1em;
+	left: -.85em;
+	height: .35em;
+	width: .35em;
+	border-radius: 50%;
+	color: #666;
+	box-shadow: inset 0 0 0 1em, 
+				1em -.5em 0 0, 
+				1em .5em 0 0;
+	margin: .75em .5em .5em 1.15em;
+}
+.icon-share:after,
+.icon-share:before{
+	content: '';
+	position: absolute;
+	left: .2em;
+	width: .95em;
+	height: .1em;
+	background-color: #666;
+}
+.icon-share:before{
+	top: -.15em;
+	transform: rotate(-25deg)
+}
+.icon-share:after{
+	top: .4em;
+	transform: rotate(25deg)
+}
