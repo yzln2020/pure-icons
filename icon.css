@@ -261,3 +261,35 @@
 	top: .4em;
 	transform: rotate(25deg)
 }
+
+/* Sliders */
+.icon-sliders{
+	position:relative;
+	top: .125em;
+    height: 1em;
+    width: 1em;
+    margin-top: .1em; 
+} 
+.icon-sliders:after,
+.icon-sliders:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #666;
+}
+.icon-sliders:before{
+    width: .45em;
+    height: .2em;
+    border-radius: .05em;
+    top: 70%;
+    box-shadow: inset 0 0 0 0.1em, 
+    			0.4em -0.4em, 
+    			-0.4em -0.5em;
+}
+.icon-sliders:after{
+    width: .1em;
+    height: 110%;
+    box-shadow: inset 0 0 0 .1em, 
+    			.4em 0, -.4em 0
+}
