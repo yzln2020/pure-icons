@@ -327,3 +327,31 @@
     			0.6em -0.25em, 
     			-0.6em -0.25em;
 }
+
+/* List */
+.icon-list,
+.icon-list:before,
+.icon-list:after {
+	width: .085em;
+	height: .165em;
+	border-width: 0 1em 0 .3em;
+	border-style: solid;
+	border-color: #666;
+}
+.icon-list {
+	position: relative;
+	top: -.5em;
+	margin: .935em .308em .5em .308em;
+}
+.icon-list:before,
+.icon-list:after {
+	content: '';
+	position: absolute;
+	left: -.3em;
+}
+.icon-list:before {
+	top: .3125em;
+}
+.icon-list:after {
+	top: .655em;
+}
