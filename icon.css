@@ -355,3 +355,24 @@
 .icon-list:after {
 	top: .655em;
 }
+
+/* Grid */
+.icon-grid,
+.icon-grid:before {
+	width: .0675em;
+	height: .46875em;
+	border-width: 0 .46875em;
+	border-style: solid;
+	border-color: #666;
+}
+.icon-grid {
+	position: relative;
+	top: -.275em;
+	margin: .631em .499em .5em .497em;
+}
+.icon-grid:before {
+	content: '';
+	position: absolute;
+	top: .53125em;
+	left: -.46875em;
+}
