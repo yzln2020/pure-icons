@@ -376,3 +376,60 @@
 	top: .53125em;
 	left: -.46875em;
 }
+
+/* Comments and Mail */
+.icon-comment,
+.icon-comment-text,
+.icon-mail {
+	position: relative;
+	width: 1.2em;
+	height: .7em;
+	background-color: #666;
+	margin: .4em .4em .5em .4em;
+}
+/* Comments */
+.icon-comment,
+.icon-comment-text {
+	border-radius: .125em;
+}
+.icon-comment:after,
+.icon-comment-text:before,
+.icon-comment-text:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+}
+.icon-comment-text:before {
+	top: .1875em;
+	left: .2em;
+	width: .75em;
+	height: .1em;
+	border-width: .1em 0;
+	border-color: #fff;
+}
+.icon-comment:after,
+.icon-comment-text:after {
+	top: .6em;
+	left: .25em;
+	border-width: .175em;
+	border-color: #666 transparent transparent #666;
+}
+
+/* Mail */
+.icon-mail {
+	top: .1em;
+}
+.icon-mail:before,
+.icon-mail:after {
+	content: '';
+	position: absolute;
+	border-width: .4em .6em;
+	border-style: solid;
+}
+.icon-mail:before {
+	border-color: #fff transparent transparent transparent;
+}
+.icon-mail:after {
+	top: -.07em;
+	border-color: #666 transparent transparent transparent;
+}
