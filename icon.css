@@ -433,3 +433,38 @@
 	top: -.07em;
 	border-color: #666 transparent transparent transparent;
 }
+
+/* Calendar */
+.icon-calendar{
+	position: relative;
+	top: .25em;
+	width: .875em;
+	height: .65em;
+	border-width: .175em .0625em .0625em .0625em;
+	border-style: solid;
+	border-color: #666; 
+	background-color: #fff;
+	border-radius: .0625em;
+	margin-top: .213em;
+}
+.icon-calendar:before{
+	content: '';
+	position: absolute;
+	top: -.35em;
+	left: .125em;
+	width: .275em;
+	height: .25em;
+	border-width: 0 .175em;
+	border-style: solid;
+	border-color: #666;
+}
+.icon-calendar:after{
+	content: "15";
+	position: absolute;
+	top: -.05em;
+	left: .05em;
+	font-family: Arial, sans-serif;
+	font-size: .65em;
+	font-weight: bold;
+	color: #666;
+}
