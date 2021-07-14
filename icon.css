@@ -500,3 +500,27 @@
 	line-height: .175em;
 	color: #666;
 }
+
+/* Folder */
+.icon-folder {
+	position: relative;
+	top: .25em;
+	left: 0;
+	width: 1.35em;
+	height: .85em;
+	background-color: #666;
+	border-radius: .035em;
+	margin: .25em .325em .5em .325em;
+}
+.icon-folder:before {
+	content: '';
+	position: absolute;
+	top: -.2em;
+	left: .125em;
+	width: .65em;
+	height: .21em;
+	background-color: #666;
+	border-top-left-radius: .05em;
+	border-top-right-radius: .09em;
+	box-shadow: .3em .1em 0 0 #666;
+}
