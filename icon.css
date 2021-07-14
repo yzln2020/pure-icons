@@ -468,3 +468,35 @@
 	font-weight: bold;
 	color: #666;
 }
+
+/* File */
+.icon-file {
+	position: relative;
+	top: .25em;
+	width: .6em;
+	height: .8em;
+	border-width: .125em;
+	border-style: solid;
+	border-color: #666; 
+	background-color: #fff;
+	border-radius: .0625em;
+	margin: .05em .575em .5em .575em;
+}
+.icon-file:before {
+	content: '';
+	position: absolute;
+	top: -.125em;
+	left: .43em;
+	border-width: .15em;
+	border-style: solid;
+	border-color: #fff #fff #666 #666; 
+}
+.icon-file:after {
+	content: '---';
+	position: absolute;
+	top: .15em;
+	left: .06em;
+	display: block;
+	line-height: .175em;
+	color: #666;
+}
