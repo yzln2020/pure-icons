@@ -524,3 +524,39 @@
 	border-top-right-radius: .09em;
 	box-shadow: .3em .1em 0 0 #666;
 }
+
+/* Image */
+.icon-image {
+	position: relative;
+	top: .3em;
+	width: 1.5em;
+	height: 1em;
+	overflow: hidden;
+	border-width: .0625em;
+	border-style: solid;
+	border-color: #666; 
+	border-radius: .0625em;
+	margin: -.026em .19em .5em .19em;
+}
+.icon-image:before{
+	content: '';
+    position: absolute;
+    left: .45em;
+    top: .65em;
+    width: 1em;
+    height: 1em;
+    transform: rotate(45deg);
+    box-shadow: inset 0 0 0 1em #666, 
+    			-0.25em 0.6em 0 0 #666;
+}
+.icon-image:after{
+	content: '';
+    position: absolute;
+    top: .2em;
+    left: .2em;
+    width: .2em;
+    height: .2em;
+    border-radius: 50%;
+    color: #666;
+    box-shadow: inset 0 0 0 32px;
+}
