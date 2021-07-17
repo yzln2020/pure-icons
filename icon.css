@@ -560,3 +560,35 @@
     color: #666;
     box-shadow: inset 0 0 0 32px;
 }
+
+/* Stats */
+.icon-stats,
+.icon-stats:before {
+	width: .35em;
+	border-width: 0 .2em;
+	border-style: solid;
+	border-color: #666; 
+}
+.icon-stats {
+	position: relative;
+	top: .175em;
+	left: -.25em;
+	height: .875em;
+	margin: .225em .626em .5em .625em;
+}
+.icon-stats:before {
+	content: '';
+	position: absolute;
+	top: .325em;
+	left: .1em;
+	height: .5625em;
+}
+.icon-stats:after {
+	content: '';
+	position: absolute;
+	top: .875em;
+	left: -.2em;
+	width: 1.25em;
+	height: .125em;
+	background-color: #666; 
+}
