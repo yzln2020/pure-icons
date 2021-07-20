@@ -607,3 +607,31 @@
     transform: skew(-25deg,-25deg);
     margin: -.2em .7em .5em 0;
 }
+
+/* Tag */
+.icon-tag {
+	position: relative;
+	top: -.15em;
+	width: .65em;
+	height: .65em;
+	background-color: #666;
+	border-top-left-radius: .0625em;
+	border-top-right-radius: .0625em;
+	margin: .45em .675em .5em .675em;
+}
+.icon-tag:before,
+.icon-tag:after {
+	content: '';
+	position: absolute;
+	top: .65em;
+	border-width: .2em;
+	border-style: solid;
+}
+.icon-tag:before {
+	left: 0;
+	border-color: #666 transparent transparent #666;
+}
+.icon-tag:after {
+	left: .25em;
+	border-color: #666 #666 transparent transparent; 
+}
