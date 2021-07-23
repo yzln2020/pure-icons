@@ -635,3 +635,35 @@
 	left: .25em;
 	border-color: #666 #666 transparent transparent; 
 }
+
+/* Flag */
+.icon-flag{
+	position: relative;
+	top: .25em;
+    width: 1em;
+    height: 1.1em;
+    border-left: .125em solid #666;
+    margin: 0 .441em .5em .435em;
+}
+.icon-flag:after,
+.icon-flag:before{
+	content: "";
+    position: absolute;
+    width: .35em;
+    height: .25em;
+    border: .1em solid #666;
+    background-color: #666;
+}
+.icon-flag:before{
+    left: -.1em;
+    top: .05em;
+    border-radius: 0 .05em 0 0;
+    border-right-width: .1em;
+}
+.icon-flag:after{
+    width: .2em;
+    left: .35em;
+    top: .175em;
+    border-left-width: .1em;
+    border-radius: .05em .05em 0;
+}
