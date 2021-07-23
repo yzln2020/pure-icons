@@ -667,3 +667,14 @@
     border-left-width: .1em;
     border-radius: .05em .05em 0;
 }
+
+/* Flash */
+.icon-flash{	
+	position: relative;
+    top: .45em;
+    border-right: .25em solid transparent;
+    border-top: .8em solid #666;
+    box-shadow: -0.23em -0.5em #666;
+    transform: rotate(20deg);
+    margin: .301em .876em .5em .875em;
+}
