@@ -678,3 +678,35 @@
     transform: rotate(20deg);
     margin: .301em .876em .5em .875em;
 }
+
+/* Star */
+.icon-star {
+	position: relative;
+	top: .125em;
+	width: .125em;
+    border-color: #666 transparent transparent transparent;
+    border-style: solid;
+    border-top-width: .555em;
+    border-right-width: .7em;
+    border-left-width: .55em;
+    margin: .445em .3134em .5em .313em
+}
+.icon-star:before,
+.icon-star:after {
+	content: '';
+	position: absolute;
+	top: -.75em;
+    width: .325em;
+    height: .65em;
+    border-style: solid;
+    border-color: #666 transparent transparent transparent;
+    border-width: .525em .6em 0 .6em;
+}
+.icon-star:before {
+	left: -.95em;
+    transform: rotate(71deg);
+}
+.icon-star:after {
+	left: -.35em;
+    transform: rotate(-71deg);
+}
