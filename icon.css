@@ -710,3 +710,30 @@
 	left: -.35em;
     transform: rotate(-71deg);
 }
+
+/* Heart */
+.icon-heart {
+	position: relative;
+	width: .7em;
+	height: 1em;
+	background-color: #666;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	transform: rotate(-45deg);
+	transform-origin: center bottom;
+	margin: .101em .451em .5em .851em;
+}
+.icon-heart:after {
+	content: "";
+	position: absolute;
+	top: -.34em;
+	left: -.34em;
+	width: .7em;
+	height: 1em;
+	background-color: #666;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	transform: rotate(90deg);
+	transform-origin: center bottom;
+}
+
