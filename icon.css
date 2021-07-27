@@ -737,3 +737,24 @@
 	transform-origin: center bottom;
 }
 
+/* Position */
+.icon-position {
+	position: relative;
+	top: .05em;
+	width: .455em;
+	height: .455em;
+	border: .3em solid #666;
+	border-radius: 50%;
+	margin: .05em .475em .5em .475em;
+}
+.icon-position:after {
+	content: "";
+	position: absolute;
+	top: .45em;
+    left: -.272em;
+	border-top: .65em solid #666;
+	border-right: .5em solid transparent;
+	border-left: .5em solid transparent;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
