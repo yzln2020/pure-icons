@@ -790,3 +790,39 @@
 	height: .3em;
 	background-color: #666;
 }
+
+/* Pencil */
+.icon-pencil{
+	position:relative;
+	top: .12em;
+    width: .35em;
+    height: .9em;
+    border: .175em solid #666;
+    border-bottom: 0;
+    border-radius: .125em;
+    margin: .025em .651em .5em .651em;
+    transform: rotate(30deg);
+}
+.icon-pencil:before{
+	content: '';
+	position: absolute;
+	left: .05em;
+	bottom: .075em;
+	width: .05em;
+	height: .05em;
+	border: .12em solid #666;
+	border-radius: 50%;
+}
+.icon-pencil:after{
+	content: '';
+	position: absolute;
+	left: -.11em;
+	bottom: -.25em;
+	width: .4em;
+	height: .4em;
+	border: .175em solid #666;
+	border-top: 0;
+	border-left: 0;
+	border-radius: 0 .25em .15em .25em;
+	transform: rotate(45deg);
+}
