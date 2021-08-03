@@ -841,3 +841,45 @@
 	border-radius: 50%;
 	margin: -.35em .28em .5em .271em;
 }
+
+/* Success Error Info */
+.icon-success:before,
+.icon-success:after,
+.icon-info:before {
+	content: '';
+	position:absolute;
+	height:.15em;
+	background-color: #666;
+	border-radius: .1em;
+}
+/* Success */
+.icon-success:before{
+	top: .75em;
+	left: .125em;
+	width: .41em;
+	transform:rotate(45deg);
+}
+.icon-success:after{
+	top: .6em;
+	left: .3em;
+	width: .8em;
+	transform:rotate(135deg);
+}
+/* Error */
+.icon-error:before,
+.icon-error:after{
+	content: '';
+	position:absolute;
+	top: .55em;
+	left: .15em;
+	width: .9em;
+	height: .15em;
+	border-radius: .1em;
+	background-color: #666;
+}
+.icon-error:before{
+	transform:rotate(45deg);
+}
+.icon-error:after{
+	transform:rotate(-45deg);
+}
