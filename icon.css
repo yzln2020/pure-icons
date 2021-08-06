@@ -919,3 +919,16 @@
 	border-top-left-radius: .45em;
 	border-top-right-radius: .45em;
 }
+
+/* Compass */
+.icon-compass:before{
+	content: '';
+    position: absolute;
+    top: .3em;
+    left: .3em;
+    width: .1em;
+	height: .1em;
+	background-color: transparent;
+    border: .25em solid #666;
+    transform: skew(-25deg,-25deg)
+}
