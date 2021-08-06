@@ -895,3 +895,27 @@
     font-weight: bold;
     color: #666;
 }
+
+/* User */
+.icon-user:before  {
+	content: "";
+	position: absolute;
+	top: -.55em;
+	left: -.4em;
+	width: .5em;
+	height: .5em;
+	background-color: #666;
+	border-radius: 50%;
+	margin: .6em .75em .5em .75em;
+}
+.icon-user:after {
+	content: "";
+	position: absolute;
+	top: .6em;
+	left: .1em;
+	width: 1em;
+	height: .43em;
+	background-color: #666;
+	border-top-left-radius: .45em;
+	border-top-right-radius: .45em;
+}
