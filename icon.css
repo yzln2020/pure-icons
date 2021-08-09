@@ -932,3 +932,35 @@
     border: .25em solid #666;
     transform: skew(-25deg,-25deg)
 }
+
+/* Lock */
+.icon-lock {
+	position: relative;
+	top: .35em;
+	width: 1.35em;
+	height: .75em;
+	background-color: #666;
+	border-radius:.15em;
+	margin: .35em .329em .5em .322em;
+}
+.icon-lock:before {
+	content: "";
+	position: absolute;
+	top: -.45em;
+	left: .25em;
+	width: .45em;
+	height: .4em;
+	border: .2em solid #666;
+	border-radius: 50%;
+}
+.icon-lock:after {
+	content: "";
+	position: absolute;
+	left: .52em;
+	bottom: .2em;
+	width: .3em;
+	height: .4em;
+	border-top-left-radius: .15em;
+	border-top-right-radius: .15em;
+	background-color: #fff;
+}
