@@ -964,3 +964,32 @@
 	border-top-right-radius: .15em;
 	background-color: #fff;
 }
+
+/* Home */
+.icon-home {
+	position:relative;
+	top: .3em;
+	width: 1em;
+	height: .85em;
+	background-color: #666;
+	margin: .25em .5em .5em .5em;
+}
+.icon-home:before {
+	content: '';
+	position: absolute;
+	top: -.4em;
+	left: .64em;
+	margin-left: -1em;
+	border-left: .85em solid transparent;
+	border-right: .85em solid transparent;
+	border-bottom: .65em solid #666;
+}
+.icon-home:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: .35em;
+	width: .3em;
+	height: .35em;
+	background-color: #fff;
+}
