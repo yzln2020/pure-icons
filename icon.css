@@ -993,3 +993,32 @@
 	height: .35em;
 	background-color: #fff;
 }
+
+/* Cube */
+.icon-cube{
+	position: relative;
+	top: -.4em;
+    width: .135em;
+    height: .65em;
+    color: #666;
+    box-shadow: inset 0 0 0 0.1em, 0 0.9em, -0.65em 0.45em, 0.65em 0.45em;
+    margin: .45em .935em .5em .935em;
+}
+.icon-cube:after,
+.icon-cube:before{
+	content: '';
+	position: absolute;
+	top: .15em;
+	width: .65em;
+    height: .23em
+}
+.icon-cube:before{
+	right: .1em;
+	transform: skew(0,-35deg) scaleY(.6);
+	box-shadow: inset 0 0 0 1em, 0 0.95em, 0.7em 2.5em, 0.65em 1.65em;
+}
+.icon-cube:after{
+	left: .1em;
+	transform: skew(0,35deg) scaleY(.6);
+	box-shadow: inset 0 0 0 1em, 0 0.9em, -0.7em 1.6em, -0.7em 2.5em;
+}
