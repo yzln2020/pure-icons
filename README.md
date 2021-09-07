@@ -1,2 +1,2 @@
 # pure-icons
-some pure css icons
+some icons with pure css 
