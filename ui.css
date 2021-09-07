@@ -1,0 +1,15 @@
+
+[class*=ui-]{
+	font-size: 1.2em;
+}
+ 
+.color-red{
+
+}
+.ui-button{
+	width: 5em;
+	height: 2em;
+	border: 0px;
+	background: #008ed4;
+	border-radius:15px;
+}
