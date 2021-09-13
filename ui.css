@@ -103,3 +103,50 @@ textarea {
 [hidden] {
   display: none;
 }
+
+.ui-btn{
+    display: inline-block;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.ui-btn::-moz-focus-inner{
+    padding: 0;
+    border: 0;
+}
+
+.ui-btn{
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.ui-btn {
+    font-family: inherit;
+    font-size: 115%;
+    padding: 0.5em 1em;
+    color: #555;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 1px;
+    outline: 0;
+}
+
+.ui-btn:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+    border-color: #129fea;
+}
+
+.ui-btn[disabled] {
+    border: 1px solid #ddd;
+    opacity: 0.50;
+    cursor: not-allowed;
+}
