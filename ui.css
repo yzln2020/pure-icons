@@ -150,3 +150,54 @@ textarea {
     opacity: 0.50;
     cursor: not-allowed;
 }
+
+.ui-form input,
+.ui-form select,
+.ui-form textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.ui-form input:focus,
+.ui-form select:focus,
+.ui-form textarea:focus,
+.ui-form input:hover,
+.ui-form select:hover,
+.ui-form textarea:hover {
+    outline: 0;
+    border-color: #4395ff;
+}
+
+.ui-form input[disabled],
+.ui-form select[disabled],
+.ui-form textarea[disabled] {
+    cursor: not-allowed;
+    background-color: ##f8f8f8;
+    color: #777;
+}
+
+.ui-form input[readonly],
+.ui-form select[readonly],
+.ui-form textarea[readonly] {
+    background-color: #f7f7f7; 
+    color: #777;
+    border-color: #ccc;
+}
+
+.ui-form input[type="radio"],
+.ui-form input[type="checkbox"] {
+    width: 1.15em;
+    height: 1.15em;
+    border-radius: 1px;
+    vertical-align: middle;
+    outline: transparent;
+    box-shadow: none;
+}
+
+.ui-form input[type="date"],
+.ui-form input[type="datetime-local"]{
+    padding: 0.35em 0.3em;
+}
