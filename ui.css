@@ -8,6 +8,7 @@ html {
   font-family: sans-serif;
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
+  background-color: #fafafa;
 }
 
 body {
@@ -200,4 +201,40 @@ textarea {
 .ui-form input[type="date"],
 .ui-form input[type="datetime-local"]{
     padding: 0.35em 0.3em;
+}
+
+.ui-upload{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.ui-upload label,
+.ui-upload input,
+.ui-upload input[readonly]{
+    color: #555;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 0.5em 1em;
+    float: left;
+}
+
+.ui-upload label{
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+.ui-upload input,
+.ui-upload input[readonly] {
+    border-right: 0;
+    background-color: #fff;
+}
+
+.ui-upload input:hover,
+.ui-upload input:focus {
+    outline: 0;
+    border-color: #ddd;
+}
+
+.ui-upload input[type="file"] {
+    display: none;
 }
