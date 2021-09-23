@@ -272,3 +272,31 @@ textarea {
 .ui-card:hover {
     box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2);
 }
+
+.ui-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    width: 100%;
+}
+.ui-table td,
+.ui-table th {
+    font-size: inherit;
+    overflow: visible; 
+    margin: 0;
+    padding: 1em 1.5em;
+    border: 1px solid #eee;
+}
+.ui-table thead {
+    background-color: #e6e6e6;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+.ui-table td {
+    background-color: transparent;
+}
+.ui-table tbody tr:hover {
+    background-color: #f7f7f7;
+    box-shadow: 0 0 2px rgb(0 0 0 / 15%);
+}
