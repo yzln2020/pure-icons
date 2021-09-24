@@ -300,3 +300,36 @@ textarea {
     background-color: #f7f7f7;
     box-shadow: 0 0 2px rgb(0 0 0 / 15%);
 }
+
+.ui-pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0.65em 0;
+}
+.ui-pagination a,
+.ui-pagination label {
+    font-size: 115%;
+    color: #000;
+    line-height: 1.5em;
+    padding: 0.15em 0.65em;
+    margin: 0 -1px 0 0;
+    text-decoration: none;
+    border: 1px solid #eee;
+    float: left;
+}
+.ui-pagination a:hover {
+    color: #009688;
+}
+
+.ui-pagination a.curr,
+.ui-pagination a.curr:hover{
+    background-color: #009688;
+    color: #fff;
+    cursor: inherit;
+}
+.ui-pagination a.disabled,
+.ui-pagination a.disabled:hover{
+    color: #000;
+    opacity: 0.40;
+    cursor: not-allowed;
+}
