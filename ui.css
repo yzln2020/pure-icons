@@ -250,3 +250,9 @@ textarea {
 .ui-input-w350{
     width: 350px;
 }
+
+.ui-form select {
+    height: 2.25em;
+    padding: 0 .75em;
+    margin-top: .15em;
+}
