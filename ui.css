@@ -375,3 +375,46 @@ textarea {
     border-radius: 10px;
     background: #fff;
 }
+
+
+.ui-bg-blue {
+    color: #fff;
+    background-color: #0078e7;
+    border-color: #0078e7;
+}
+
+.ui-bg-green {
+    color: #fff;
+    background-color: #1cb841;
+    border-color: #1cb841; 
+}
+
+.ui-bg-cyan{
+    color: #fff;
+    background-color: #42cac0; 
+    border-color: #42cac0;
+}
+
+.ui-bg-red {
+    color: #fff;
+    background-color: #ff6060; 
+    border-color: #ff6060;
+}
+
+.ui-bg-yellow {
+    color: #fff;
+    background-color: #f8d347;
+    border-color: #f8d347; 
+}
+
+.ui-bg-gray {
+    color: #000;
+    background-color: #e7e7e7;
+    border-color: #e7e7e7; 
+}
+
+.ui-bg-black {
+    color: #fff;
+    background-color: #555555;
+    border-color: #555555; 
+}
