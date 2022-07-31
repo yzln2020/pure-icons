@@ -1036,3 +1036,24 @@
   border-radius: 1.5em 0 0 0;
   transform: rotate(45deg);
 }
+
+/*钻石*/
+.icon-diamond {
+  position: relative;
+  top: -.45em;
+  width: .6em;
+  height: 0;
+  border-width: 0 .4em .5em .34em;
+  border-style: solid;
+  border-color: transparent transparent #666 transparent;
+  box-sizing: content-box;
+}
+.icon-diamond:after {
+  position: absolute;
+  top: .5em;
+  left: -.4em;
+  content: '';
+  border-width: .9em .7em 0 .7em;
+  border-style: solid;
+  border-color: #666 transparent transparent transparent;
+}
