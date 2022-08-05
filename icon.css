@@ -1074,3 +1074,35 @@
   border-radius: 50%;
   box-shadow: 15px 15px 0 0 deepskyblue;
 }
+
+/* 太极 */
+.icon-supermepole {
+  position: relative;
+  width: 96px;
+  height: 48px;
+  background-color: #FFF;
+  border-width: 2px 2px 50px 2px;
+  border-style: solid;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+.icon-supermepole:before,
+.icon-supermepole:after {
+  position: absolute;
+  top: 50%;
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+.icon-supermepole:before {
+  background-color: #FFF;
+  left: 0;
+  border: 18px solid #000;
+}
+.icon-supermepole:after {
+  background-color: #000;
+  left: 50%;
+  border: 18px solid #FFF;
+}
