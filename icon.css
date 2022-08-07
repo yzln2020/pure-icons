@@ -1106,3 +1106,30 @@
   left: 50%;
   border: 18px solid #FFF;
 }
+
+/* 指示器 */
+.icon-pointer {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  background-color: deepskyblue;
+}
+.icon-pointer:before,
+.icon-pointer:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+}
+.icon-pointer:before {
+  left: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #fff;
+}
+.icon-pointer:after {
+  right: -20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid deepskyblue;
+}
