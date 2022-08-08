@@ -1134,6 +1134,15 @@
   border-left: 20px solid deepskyblue;
 }
 
+/*圆形*/
+.circle{ 
+  width:100px; 
+  height:100px; 
+  float: left; 
+  background: #6fee1d; 
+  border-radius: 50px; 
+}
+
 /*椭圆*/
 .oval {
   width: 200px;
