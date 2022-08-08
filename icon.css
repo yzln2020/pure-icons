@@ -1133,3 +1133,11 @@
   border-bottom: 20px solid transparent;
   border-left: 20px solid deepskyblue;
 }
+
+/*椭圆*/
+.oval {
+  width: 200px;
+  height: 100px;
+  background-color: deepskyblue;
+  border-radius: 100px / 50px;
+}
