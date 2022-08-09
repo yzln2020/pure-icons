@@ -1150,3 +1150,18 @@
   background-color: deepskyblue;
   border-radius: 100px / 50px;
 }
+
+/*三角形*/
+.triangle-up,
+.triangle-down,
+.triangle-left,
+.triangle-right {
+  display: inline-block;
+}
+.triangle-up {
+  width:  0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid deepskyblue;
+}
