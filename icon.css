@@ -1186,3 +1186,17 @@
   border-bottom: 50px solid transparent;
   border-right: 50px solid deepskyblue;
 }
+
+.triangle-topLeft,
+.triangle-topRight,
+.triangle-bottomLeft,
+.triangle-bottomRight {
+  display: inline-block;
+}
+/*左上角*/
+.triangle-topLeft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid deepskyblue;
+  border-right: 100px solid transparent;
+}
