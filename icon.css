@@ -1200,3 +1200,10 @@
   border-top: 100px solid deepskyblue;
   border-right: 100px solid transparent;
 }
+/*右上角*/
+.triangle-topRight {
+  width: 0;
+  height: 0;
+  border-top: 100px solid deepskyblue;
+  border-left: 100px solid transparent;
+}
