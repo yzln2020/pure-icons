@@ -1207,3 +1207,10 @@
   border-top: 100px solid deepskyblue;
   border-left: 100px solid transparent;
 }
+/*左下角*/
+.triangle-bottomLeft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid deepskyblue;
+  border-right: 100px solid transparent;
+}
