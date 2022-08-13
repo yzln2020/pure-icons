@@ -1221,3 +1221,11 @@
   border-bottom: 100px solid deepskyblue;
   border-left: 100px solid transparent;
 }
+
+/*平行四边形*/
+.parallelogram {
+  width: 100px;
+  height: 100px;
+  background-color: deepskyblue;
+  transform:  skew(30deg);
+}
