@@ -1229,3 +1229,12 @@
   background-color: deepskyblue;
   transform:  skew(30deg);
 }
+
+/*梯形*/
+.trapezoid {
+  width: 100px;
+  height: 0;
+  border-right: 25px solid transparent;
+  border-bottom: 100px solid deepskyblue;
+  border-left: 25px solid transparent;
+}
