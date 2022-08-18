@@ -1285,3 +1285,30 @@
   bottom: -25px;
   border-top: 25px solid deepskyblue;
 }
+
+ /*无穷大*/
+.infinity {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  box-sizing: content-box;
+}
+.infinity:before,
+.infinity:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: '';
+  border: 20px solid deepskyblue;
+  border-radius: 50px 50px 0 50px;
+  box-sizing: content-box;
+  transform: rotate(-45deg);
+}
+.infinity:after {
+  left: auto;
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  transform: rotate(45deg);
+}
