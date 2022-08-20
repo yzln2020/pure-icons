@@ -1312,3 +1312,23 @@
   border-radius: 50px 50px 50px 0;
   transform: rotate(45deg);
 }
+
+/* 对话泡泡  */
+.talkbubble {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  background-color: deepskyblue;
+  border-radius: 10px;
+}
+.talkbubble:before {
+  position: absolute;
+  top: 26px;
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-right: 26px solid deepskyblue;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+}
