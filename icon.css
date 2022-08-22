@@ -1332,3 +1332,28 @@
   border-top: 13px solid transparent;
   border-bottom: 13px solid transparent;
 }
+
+/* 丝带徽章 */
+.badge-ribbon {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: deepskyblue;
+  border-radius: 50%;
+}
+.badge-ribbon:before,
+.badge-ribbon:after {
+  position: absolute;
+  top: 70px;
+  left: -10px;
+  content: '';
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 70px solid deepskyblue;
+  transform: rotate(-140deg);
+}
+.badge-ribbon:after {
+  right: -10px;
+  left: auto;
+  transform: rotate(140deg);
+}
