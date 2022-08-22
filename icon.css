@@ -1357,3 +1357,13 @@
   left: auto;
   transform: rotate(140deg);
 }
+
+/* 圆锥 */
+.cone {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  border-top: 80px solid deepskyblue;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+}
