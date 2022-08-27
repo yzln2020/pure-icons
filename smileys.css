@@ -12,6 +12,8 @@
     border-radius: 50%;
     margin-right: 20px;
 }
+
+/*绿色笑脸*/
 .smiley-green {
     background: #a9db7a;
     border: 5px solid #92c563;
@@ -62,6 +64,7 @@
     left: 0%;
 }
 
+/*黄色笑脸*/
 .smiley-yellow {
     background: #eed16a;
     border: 5px solid #dbae51;
@@ -98,6 +101,7 @@
     border-radius: 8px;
 }
 
+/*红色笑脸*/
 .smiley-red {
     background: #ee9295;
     border: 5px solid #e27378;
