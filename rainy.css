@@ -1,0 +1,16 @@
+body {
+    max-width: 42em;
+    padding: 2em;
+    margin: 0 auto;
+    color: #161616;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: currentColor;
+}
+.icon {
+    position: relative;
+    display: inline-block;
+    width: 12em;
+    height: 10em;
+    font-size: 1em; /* control icon size here */
+}
