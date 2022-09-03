@@ -12,7 +12,7 @@ body {
     display: inline-block;
     width: 12em;
     height: 10em;
-    font-size: 1em; /* control icon size here */
+    font-size: 1em; 
 }
 .cloud {
     position: absolute;
@@ -55,7 +55,7 @@ body {
     transform: scale(0.5) translate(6em, -3em);
     animation: cloud 4s linear infinite;
 }
-.cloud:nth-child(2):after { ’
+.cloud:nth-child(2):after {
     background: #fff; 
 }
 
