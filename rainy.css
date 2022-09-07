@@ -14,6 +14,8 @@ body {
     height: 10em;
     font-size: 1em; 
 }
+
+/*云朵*/
 .cloud {
     position: absolute;
     z-index: 1;
@@ -58,6 +60,8 @@ body {
 .cloud:nth-child(2):after {
     background: #fff; 
 }
+
+/*雨滴*/
 .rain{
     position: absolute;
     z-index: 2;
@@ -87,6 +91,7 @@ body {
     animation: rain 3s linear infinite;
 }
 
+/*动画*/
 @keyframes rain {
     0% {
         background: #0cf;
