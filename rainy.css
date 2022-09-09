@@ -120,3 +120,21 @@ body {
         -1.375em -0.125em 0 #0cf;
     }
 }
+
+/*乌云*/
+.stormy{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+    margin-left: -60px;
+    background: #222;
+    border-radius: 50%;
+    box-shadow: #222 64px -15px 0 -5px,
+        #222 25px -25px,
+        #222 30px 10px,
+        #222 60px 15px 0 -10px,
+        #222 85px 5px 0 -5px;
+    animation: stormy 5s ease-in-out infinite;
+}
