@@ -138,3 +138,9 @@ body {
         #222 85px 5px 0 -5px;
     animation: stormy 5s ease-in-out infinite;
 }
+
+@keyframes stormy{
+    50%{
+        transform: translateY(-20px);
+    }
+}
