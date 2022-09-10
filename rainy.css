@@ -144,3 +144,25 @@ body {
         transform: translateY(-20px);
     }
 }
+
+/*乌云阴影*/
+.stormy::after{
+    content: '';
+    width: 120px;
+    height: 15px;
+    position: absolute;
+    left: 5px;
+    bottom: -60px;
+    background: #000;
+    border-radius: 50%;
+    opacity: 0.2;
+    transform: scale(0.7);
+    animation: stormy_shadow 5s ease-in-out infinite;
+}
+
+@keyframes stormy_shadow{
+    50%{
+        transform: translateY(20px) scale(1);
+        opacity: 0.05;
+    }
+}
