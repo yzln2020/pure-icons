@@ -166,3 +166,40 @@ body {
         opacity: 0.05;
     }
 }
+
+/*闪电*/
+.stormy::before{
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 57px;
+    top: 70px;
+    border-left:  0px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 43px solid yellow;
+    box-shadow: yellow -7px -32px;
+    transform:  rotate(14deg);
+    transform-origin: 50% -60px;
+    animation: stormy_thunder 2s steps(1, end) infinite;
+}
+
+@keyframes stormy_thunder{
+    0%{
+        transform: rotate(20deg);
+        opacity: 1;
+    }
+    5%{
+        transform: rotate(-34deg);
+        opacity: 1;
+    }
+    10%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    15%{
+        transform: rotate(-34deg);
+        opacity: 0;
+    }
+}
