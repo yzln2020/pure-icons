@@ -1,0 +1,367 @@
+/*箭头*/
+.icon-curvedarrow {
+  position: relative;
+  border-top: .95em solid transparent;
+  border-right: .95em solid #666;
+  transform: rotate(10deg);
+}
+.icon-curvedarrow:after {
+  position: absolute;
+  top: -1.1em;
+  left: -.65em;
+  width: 1.2em;
+  height: 1.2em;
+  content: '';
+  border-top: .5em solid #666;
+  border-radius: 1.5em 0 0 0;
+  transform: rotate(45deg);
+}
+
+/*钻石*/
+.icon-diamond {
+  position: relative;
+  top: -.45em;
+  width: .6em;
+  height: 0;
+  border-width: 0 .4em .5em .34em;
+  border-style: solid;
+  border-color: transparent transparent #666 transparent;
+  box-sizing: content-box;
+}
+.icon-diamond:after {
+  position: absolute;
+  top: .5em;
+  left: -.4em;
+  content: '';
+  border-width: .9em .7em 0 .7em;
+  border-style: solid;
+  border-color: #666 transparent transparent transparent;
+}
+
+/* 吃豆人 */
+.icon-pacman {
+  width: 0;
+  height: 0;
+  border: 60px solid deepskyblue;
+  border-right: 60px solid transparent;
+  border-radius: 60px;
+}
+
+/* 月亮 */
+.icon-moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 deepskyblue;
+}
+
+/* 太极 */
+.icon-supermepole {
+  position: relative;
+  width: 96px;
+  height: 48px;
+  background-color: #FFF;
+  border-width: 2px 2px 50px 2px;
+  border-style: solid;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+.icon-supermepole:before,
+.icon-supermepole:after {
+  position: absolute;
+  top: 50%;
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+.icon-supermepole:before {
+  background-color: #FFF;
+  left: 0;
+  border: 18px solid #000;
+}
+.icon-supermepole:after {
+  background-color: #000;
+  left: 50%;
+  border: 18px solid #FFF;
+}
+
+/* 指示器 */
+.icon-pointer {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  background-color: deepskyblue;
+}
+.icon-pointer:before,
+.icon-pointer:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+}
+.icon-pointer:before {
+  left: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #fff;
+}
+.icon-pointer:after {
+  right: -20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid deepskyblue;
+}
+
+/*圆形*/
+.circle{ 
+  width:100px; 
+  height:100px; 
+  float: left; 
+  background: #6fee1d; 
+  border-radius: 50px; 
+}
+
+/*椭圆*/
+.oval {
+  width: 200px;
+  height: 100px;
+  background-color: deepskyblue;
+  border-radius: 100px / 50px;
+}
+
+/*三角形*/
+.triangle-up,
+.triangle-down,
+.triangle-left,
+.triangle-right {
+  display: inline-block;
+}
+.triangle-up {
+  width:  0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid deepskyblue;
+}
+.triangle-down {
+  width:  0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid deepskyblue;
+}
+.triangle-left {
+  width:  0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid deepskyblue;
+}
+.triangle-right {
+  width:  0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid deepskyblue;
+}
+
+.triangle-topLeft,
+.triangle-topRight,
+.triangle-bottomLeft,
+.triangle-bottomRight {
+  display: inline-block;
+}
+/*左上角*/
+.triangle-topLeft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid deepskyblue;
+  border-right: 100px solid transparent;
+}
+/*右上角*/
+.triangle-topRight {
+  width: 0;
+  height: 0;
+  border-top: 100px solid deepskyblue;
+  border-left: 100px solid transparent;
+}
+/*左下角*/
+.triangle-bottomLeft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid deepskyblue;
+  border-right: 100px solid transparent;
+}
+/*右下角*/
+.triangle-bottomRight {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid deepskyblue;
+  border-left: 100px solid transparent;
+}
+
+/*平行四边形*/
+.parallelogram {
+  width: 100px;
+  height: 100px;
+  background-color: deepskyblue;
+  transform:  skew(30deg);
+}
+
+/*梯形*/
+.trapezoid {
+  width: 100px;
+  height: 0;
+  border-right: 25px solid transparent;
+  border-bottom: 100px solid deepskyblue;
+  border-left: 25px solid transparent;
+}
+
+/*五边形*/
+.pentagon {
+  position: relative;
+  width: 54px;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: deepskyblue transparent;
+  box-sizing: content-box;
+}
+.pentagon:after {
+  position: absolute;
+  top: -85px;
+  left: -18px;
+  height: 0;
+  width: 0;
+  content: '';
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent deepskyblue;
+}
+
+/*六边形*/
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 55px;
+  background-color: deepskyblue;
+}
+.hexagon:before,
+.hexagon:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+.hexagon:before {
+  top: -25px;
+  border-bottom: 25px solid deepskyblue;
+}
+.hexagon:after {
+  bottom: -25px;
+  border-top: 25px solid deepskyblue;
+}
+
+ /*无穷大*/
+.infinity {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  box-sizing: content-box;
+}
+.infinity:before,
+.infinity:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: '';
+  border: 20px solid deepskyblue;
+  border-radius: 50px 50px 0 50px;
+  box-sizing: content-box;
+  transform: rotate(-45deg);
+}
+.infinity:after {
+  left: auto;
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  transform: rotate(45deg);
+}
+
+/* 对话泡泡  */
+.talkbubble {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  background-color: deepskyblue;
+  border-radius: 10px;
+}
+.talkbubble:before {
+  position: absolute;
+  top: 26px;
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-right: 26px solid deepskyblue;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+}
+
+/* 丝带徽章 */
+.badge-ribbon {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: deepskyblue;
+  border-radius: 50%;
+}
+.badge-ribbon:before,
+.badge-ribbon:after {
+  position: absolute;
+  top: 70px;
+  left: -10px;
+  content: '';
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 70px solid deepskyblue;
+  transform: rotate(-140deg);
+}
+.badge-ribbon:after {
+  right: -10px;
+  left: auto;
+  transform: rotate(140deg);
+}
+
+/* 圆锥 */
+.cone {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  border-top: 80px solid deepskyblue;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+}
+
+/* 谷堆 */
+.barnyard {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: deepskyblue;
+}
+.barnyard:before {
+  position: absolute;
+  top: -35px;
+  width: 0;
+  height: 0;
+  content: '';
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 35px solid deepskyblue;
+}
