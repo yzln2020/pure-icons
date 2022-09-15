@@ -1021,7 +1021,7 @@
 
 /*链接*/
 .icon-chain {
-	width: .7em;
+	width: .75em;
 	height: .125em;
 	margin: .65em .65em;
 	transform:rotate(-45deg);
@@ -1034,7 +1034,7 @@
 	top: 35%;
 	width: .5em;
 	height: .3em;
-	border: .1em solid;
+	border: .125em solid;
 	border-radius: .125em;
 	transform:translateY(-50%);
 }
@@ -1043,4 +1043,38 @@
 }
 .icon-chain:after {
 	left:-.4em;
+}
+
+/*回形针*/
+.icon-paperClip {
+	width: .8em;
+	height: .525em;
+	border: .125em solid;
+	border-left:none;
+	border-radius:0 .5em .5em 0;
+	transform:rotate(-45deg);
+	margin: .2em 0 .55em .55em;
+}
+.icon-paperClip:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: .125em;
+	width: .8em;
+	height: .1em;
+	border: .125em solid;
+	border-left:none;
+	border-radius:0 .5em .5em 0;
+	transform:translateY(-50%);
+}
+.icon-paperClip:after {
+	content: '';
+	position:absolute;
+	top: -.125em;
+	left: -.65em;
+	width: .8em;
+	height: .35em;
+	border: .125em solid;
+	border-right:none;
+	border-radius: .5em 0 0 .5em;
 }
