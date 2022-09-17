@@ -1021,6 +1021,7 @@
 
 /*链接*/
 .icon-chain {
+	position: relative;
 	width: .75em;
 	height: .125em;
 	margin: .65em .65em;
@@ -1047,6 +1048,7 @@
 
 /*回形针*/
 .icon-paperClip {
+	position: relative;
 	width: .8em;
 	height: .525em;
 	border: .125em solid;
@@ -1077,4 +1079,27 @@
 	border: .125em solid;
 	border-right:none;
 	border-radius: .5em 0 0 .5em;
+}
+
+/*齿轮*/
+.icon-gear {
+	position: relative;
+	width: 1.15em;
+	height: 1.15em;
+	border: .125em dotted;
+	border-radius: 50%;
+	margin: .1em;
+}
+.icon-gear:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: .95em;
+	height: .95em;
+	box-shadow: 0 0 0 3px,0 0 0 2px inset;
+	border-radius: 50%;
+	border: .2em solid transparent;
+	box-sizing: border-box;
+	transform: translate(-50%,-50%);
 }
