@@ -1139,3 +1139,24 @@
 	box-shadow:inset 0 0 0 1em;
 	transform:rotate(-45deg);
 }
+
+/*垃圾筐*/
+.icon-trash {
+	position: relative;
+	width: .9em;
+	height: .9em;
+	border: .125em solid;
+	border-radius: 0 0 .15em .15em;
+	border-top:none;
+	margin: .3em .2em .2em;
+}
+.icon-trash:before {
+	content: '';
+	position:absolute;
+	top: -6px;
+	left: 50%;
+	width: .4em;
+	height: .125em;
+	transform:translateX(-50%);
+	box-shadow:inset 0 0 0 1em,-.45em .125em 0 0,-.3em .125em 0 0,0 .125em 0 0,.3em .125em 0 0,.45em .125em 0 0;
+}
