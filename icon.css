@@ -1160,3 +1160,32 @@
 	transform:translateX(-50%);
 	box-shadow:inset 0 0 0 1em,-.45em .125em 0 0,-.3em .125em 0 0,0 .125em 0 0,.3em .125em 0 0,.45em .125em 0 0;
 }
+
+/*终端*/
+.icon-terminal {
+	position: relative;
+	width: 1em;
+	height: .8em;
+	margin: .25em .15em;
+	border: .125em solid;
+}
+.icon-terminal:before {
+	content: '';
+	position:absolute;
+	top:50%;
+	left: .05em;
+	width: .25em;
+	height: .25em;
+	border-width: .125em .125em  0 0;
+	border-style:solid;
+	transform:translateY(-50%) rotate(45deg);
+}
+.icon-terminal:after {
+	content: '';
+	position:absolute;
+	right: .5em;
+	bottom: .025em;
+	width: .3em;
+	height:0;
+	border-bottom:.125em  solid;
+}
