@@ -1182,10 +1182,40 @@
 }
 .icon-terminal:after {
 	content: '';
-	position:absolute;
+	position: absolute;
 	right: .5em;
 	bottom: .025em;
 	width: .3em;
-	height:0;
-	border-bottom:.125em  solid;
+	height: 0;
+	border-bottom: .125em solid;
+}
+
+/*订阅*/
+.icon-rss {
+	position: relative;
+	width: 1.15em;
+	height: 1.15em;
+	overflow: hidden;
+	margin: .3em;
+}
+.icon-rss:before,
+.icon-rss:after {
+	content: '';
+	position: absolute;
+	border-radius: 50%;
+}
+.icon-rss:before {
+	left: 0;
+	bottom: 0;
+	width: .3em;
+	height: .3em;
+	box-shadow: 0 0 1em inset;
+}
+.icon-rss:after {
+	right: 15%;
+	top: 15%;
+	width: .95em;
+	height: .95em;
+	border: .3em solid transparent;
+	box-shadow:inset 0 0 0 .125em,0 0 0 .125em;
 }
