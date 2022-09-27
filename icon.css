@@ -1219,3 +1219,33 @@
 	border: .3em solid transparent;
 	box-shadow:inset 0 0 0 .125em,0 0 0 .125em;
 }
+
+/*时钟*/
+.icon-clock {
+	position: relative;
+	width: 1em;
+	height: 1em;
+	border: .125em solid;
+	border-radius: 50%;
+	margin: .2em;
+}
+.icon-clock:before,
+.icon-clock:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	box-shadow: inset 0 0 0 .5em;
+	border-radius: .1em;
+	transform:translate(-50%,-50%);
+}
+.icon-clock:before {
+	width: .125em;
+	height: .5em;
+}
+.icon-clock:after {
+	width: .3em;
+	height: .125em;
+	transform-origin:left center;
+	transform:rotate(35deg) translate(.1em,.125em);
+}
