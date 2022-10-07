@@ -1271,3 +1271,37 @@
 	box-shadow:inset 0 0 0 1em;
 	transform:translate(-50%,-50%);
 }
+
+/*表情*/
+.icon-smile{
+	position: relative;
+	border: .125em solid;
+	border-radius:50%;
+	height: 1.25em;
+	width: 1.25em;
+	margin: .125em
+}
+.icon-smile:before{
+	content: '';
+	position:absolute;
+	top:27%;
+	left: .295em;
+	height: .25em;
+	width: .25em;
+	border-radius:50%;
+	box-shadow: .4em 0 0 0,0 0 0 .125em inset;
+}
+.icon-smile:after{
+	content: '';
+	position:absolute;
+	top: 6%;
+	left: 50%;
+	height: .65em;
+	width:16px;
+	border: .125em solid;
+	border-radius: 50%;
+	transform: translateX(-50%);
+	border-top-color:transparent;
+	border-left-color:transparent;
+	border-right-color:transparent;
+}
