@@ -1273,7 +1273,9 @@
 }
 
 /*表情*/
-.icon-smile{
+.icon-smile,
+.icon-frown,
+.icon-meh {
 	position: relative;
 	border: .125em solid;
 	border-radius:50%;
@@ -1281,7 +1283,9 @@
 	width: 1.25em;
 	margin: .125em
 }
-.icon-smile:before{
+.icon-smile:before,
+.icon-frown:before,
+.icon-meh:before {
 	content: '';
 	position:absolute;
 	top:27%;
@@ -1291,7 +1295,9 @@
 	border-radius:50%;
 	box-shadow: .4em 0 0 0,0 0 0 .125em inset;
 }
-.icon-smile:after{
+.icon-smile:after,
+.icon-frown:after,
+.icon-meh:after {
 	content: '';
 	position:absolute;
 	top: 6%;
@@ -1304,4 +1310,15 @@
 	border-top-color:transparent;
 	border-left-color:transparent;
 	border-right-color:transparent;
+}
+.icono-frown:after {
+	transform:translateX(-50%) rotate(180deg);
+	transform-origin:center 85%;
+}
+.icono-meh:after {
+	top: 0;
+	width: .5em;
+	border-left-width:0;
+	border-right-width:0;
+	border-radius:0;
 }
