@@ -1311,14 +1311,15 @@
 	border-left-color:transparent;
 	border-right-color:transparent;
 }
-.icono-frown:after {
+.icon-frown:after {
+	top: 10%;
 	transform:translateX(-50%) rotate(180deg);
 	transform-origin:center 85%;
 }
-.icono-meh:after {
-	top: 0;
+.icon-meh:after {
+	top: 5%;
 	width: .5em;
-	border-left-width:0;
-	border-right-width:0;
-	border-radius:0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-radius: 0;
 }
