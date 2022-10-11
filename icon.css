@@ -1022,9 +1022,10 @@
 /*链接*/
 .icon-chain {
 	position: relative;
+	top: -.2em;
 	width: .75em;
 	height: .125em;
-	margin: .65em .65em;
+	margin: 1em .65em .5em .45em;
 	transform:rotate(-45deg);
 	box-shadow:inset 0 0 0 .75em;
 }
@@ -1032,7 +1033,7 @@
 .icon-chain:after {
 	content: '';
 	position:absolute;
-	top: 35%;
+	top: 45%;
 	width: .5em;
 	height: .3em;
 	border: .125em solid;
@@ -1049,13 +1050,15 @@
 /*回形针*/
 .icon-paperClip {
 	position: relative;
+	top: -.15em;
+	left: .2em;
 	width: .8em;
 	height: .525em;
 	border: .125em solid;
 	border-left:none;
 	border-radius:0 .5em .5em 0;
 	transform:rotate(-45deg);
-	margin: .2em 0 .55em .55em;
+	margin: .4em .45em .5em .45em;
 }
 .icon-paperClip:before {
 	content: '';
