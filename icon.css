@@ -1025,7 +1025,7 @@
 	top: -.2em;
 	width: .75em;
 	height: .125em;
-	margin: 1em .65em .5em .45em;
+	margin: 1em .75em .5em .5em;
 	transform:rotate(-45deg);
 	box-shadow:inset 0 0 0 .75em;
 }
@@ -1058,7 +1058,7 @@
 	border-left:none;
 	border-radius:0 .5em .5em 0;
 	transform:rotate(-45deg);
-	margin: .4em .45em .5em .45em;
+	margin: .4em .5em .5em .5em;
 }
 .icon-paperClip:before {
 	content: '';
@@ -1087,11 +1087,12 @@
 /*齿轮*/
 .icon-gear {
 	position: relative;
+	top: .35em;
 	width: 1.15em;
 	height: 1.15em;
 	border: .125em dotted;
 	border-radius: 50%;
-	margin: .1em;
+	margin: -.2em .4em .5em .3em;
 }
 .icon-gear:before {
 	content: '';
