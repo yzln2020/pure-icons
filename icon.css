@@ -1111,17 +1111,18 @@
 /*垃圾筐*/
 .icon-trash {
 	position: relative;
-	width: .9em;
+	top: .35em;
+	width: .7em;
 	height: .9em;
 	border: .125em solid;
 	border-radius: 0 0 .15em .15em;
 	border-top:none;
-	margin: .3em .2em .2em;
+	margin: .15em .5em .5em .5em;
 }
 .icon-trash:before {
 	content: '';
 	position:absolute;
-	top: -6px;
+	top: -.35em;
 	left: 50%;
 	width: .4em;
 	height: .125em;
