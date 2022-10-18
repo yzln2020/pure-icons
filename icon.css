@@ -1194,11 +1194,12 @@
 /*时钟*/
 .icon-clock {
 	position: relative;
-	width: 1em;
-	height: 1em;
+	top: .435em;
+	width: 1.2em;
+	height: 1.2em;
 	border: .125em solid;
 	border-radius: 50%;
-	margin: .2em;
+	margin: -.25em .28em .5em .271em;
 }
 .icon-clock:before,
 .icon-clock:after {
