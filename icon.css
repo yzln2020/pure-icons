@@ -1227,12 +1227,13 @@
 /*禁止*/
 .icon-forbidden {
 	position: relative;
-	width: 1em;
-	height: 1em;
+	top: .4em;
+	width: 1.2em;
+	height: 1.2em;
 	border: .125em solid;
 	border-width: .15em;
 	border-radius:50%;
-	margin: .15em;
+	margin: -.25em .28em .5em .271em;
 	transform:rotate(45deg);
 }
 .icon-forbidden:before {
