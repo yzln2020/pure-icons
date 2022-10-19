@@ -880,6 +880,29 @@
 	transform:rotate(-45deg);
 }
 
+/*禁止*/
+.icon-forbidden {
+	position: relative;
+	top: .4em;
+	width: 1.2em;
+	height: 1.2em;
+	border: .125em solid;
+	border-width: .15em;
+	border-radius:50%;
+	margin: -.25em .28em .5em .271em;
+	transform:rotate(45deg);
+}
+.icon-forbidden:before {
+	content: '';
+	position:absolute;
+	left:50%;
+	top:50%;
+	width: .95em;
+	height: .2em;
+	box-shadow:inset 0 0 0 1em;
+	transform:translate(-50%,-50%);
+}
+
 /* Info */
 .icon-info:before {
 	content: 'i';
@@ -1220,31 +1243,6 @@
 	height: 1.1em;
 	border: .3em solid transparent;
 	box-shadow:inset 0 0 0 .125em,0 0 0 .125em;
-}
-
-
-
-/*禁止*/
-.icon-forbidden {
-	position: relative;
-	top: .4em;
-	width: 1.2em;
-	height: 1.2em;
-	border: .125em solid;
-	border-width: .15em;
-	border-radius:50%;
-	margin: -.25em .28em .5em .271em;
-	transform:rotate(45deg);
-}
-.icon-forbidden:before {
-	content: '';
-	position:absolute;
-	left:50%;
-	top:50%;
-	width: .95em;
-	height: .2em;
-	box-shadow:inset 0 0 0 1em;
-	transform:translate(-50%,-50%);
 }
 
 /*表情*/
